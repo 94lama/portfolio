@@ -9,28 +9,32 @@
       {
         "src": "https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png",
         "sizes": "50x50",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
       },
       {
         "src": "https://img.icons8.com/ios-filled/50/FFFFFF/pinterest--v1.png",
         "sizes": "50x50",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
       },
       {
         "src": "https://img.icons8.com/ios-filled/50/FFFFFF/github.png",
         "sizes": "50x50",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
       },
       {
         "src": "https://img.icons8.com/ios-filled/50/FFFFFF/stackoverflow.png",
         "sizes": "50x50",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
       },
       {
         "src": "https://img.icons8.com/ios-filled/50/FFFFFF/fiverr.png",
         "sizes": "50x50",
-        "type": "image/png"
-      },
-    //add portfolio links
-    ],
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
   }
