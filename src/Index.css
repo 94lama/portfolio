@@ -73,6 +73,13 @@ h4 {
   max-lines: 1;
 }
 
+h5 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12pt;
+  max-lines: 1;
+  align-self: center;
+}
+
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12pt;
@@ -162,7 +169,7 @@ header img {
   align-self: center;
   overflow-x: scroll;
   overflow-y: hidden;
-  width: 100vw;
+  width: 98vw;
   height: auto;
 }
 
@@ -187,6 +194,18 @@ header img {
   transition: .5s;
 }
 
+
+.projectTxt {
+  height: auto;
+  opacity: 0;
+  line-height: 0;
+  transition: ease-in-out .5s;
+}
+
+.desc {
+  height: 20vh;
+}
+
 .img_p:hover {
   opacity: 100%;
   width:30vw;
@@ -196,13 +215,14 @@ header img {
 }
 
 .img_p:hover .projectTxt {
-  transition: .5s;
-  transform-origin: left;
-  transform: scaleX(1);
+  opacity: 100%;
+  line-height: normal;
+  transition: ease-in-out .5s;
+  transform: scaleY(1);
 }
 
 .cv {
-  width: 100%;
+  width: 100vw;
   min-height: 60rem;
   margin: 0;
   padding: 0;
