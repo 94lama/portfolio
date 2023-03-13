@@ -252,7 +252,7 @@ header img {
   grid-template-columns: 3fr 1fr 1fr;
 }
 
-.studio {
+.period {
   text-align: right;
 }
 
@@ -307,7 +307,7 @@ header img {
     width: 100%;
     justify-content: center;
   }
-  .studio {
+  .period {
     width: 0;
     font-size: 0;
   }
