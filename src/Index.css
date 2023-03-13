@@ -227,7 +227,13 @@ header img {
   margin: 0;
   padding: 0;
   z-index: 2;
-  background-color: #005b96;
+  background: linear-gradient(
+    190deg,
+    #005b96 0,
+    #005b96 50%,
+    #011f4b 50%,
+    #011f4b 100%
+    )
 }
 
 .jobs { /*Job area*/
