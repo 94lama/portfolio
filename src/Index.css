@@ -253,7 +253,7 @@ header img {
 }
 
 .period {
-  text-align: right;
+  text-align:end;
 }
 
 .work { /*jobs & studio cards */
