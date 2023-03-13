@@ -13,9 +13,13 @@
         content="https://media.licdn.com/dms/image/C4D03AQE3pgA4FxjPlw/profile-displayphoto-shrink_800_800/0/1659956910703?e=1683763200&v=beta&t=LBD3-KHMRv-33-D1xOtDQyTHam0TVyI1-WPJXiVIUSs" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="icon" href="./src/assets/Logo.png" />
-    <link rel="stylesheet" href="/src/Index.css">
+    <link rel="icon" href="./assets/Logo.png" />
+    <link rel="stylesheet" href="./src/Index.css">
 </head>
+
+<script>
+
+</script>
 
 <body>
     <header>
@@ -28,20 +32,20 @@
                 <img class="icon" src="/src/assets/icons/pinterest--v1.png" alt="Pinterest icon" />
             </a>
             <a href="https://github.com/94lama" target="_blank" rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/github.png" alt="GitHub icon"/>
+                <img class="icon" src="/src/assets/icons/github.png" alt="GitHub icon" />
             </a>
             <a href="https://stackoverflow.com/users/20914708/riccardo-la-malfa" target="_blank"
                 rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/stackoverflow.png" alt="Stack Overflow icon"/>
+                <img class="icon" src="/src/assets/icons/stackoverflow.png" alt="Stack Overflow icon" />
             </a>
             <a href="https://it.fiverr.com/lamar994?up_rollout=true" target="_blank" rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/fiverr.png" alt="Fiverr icon"/>
+                <img class="icon" src="/src/assets/icons/fiverr.png" alt="Fiverr icon" />
             </a>
         </section>
         <section style="display:grid; grid-auto-flow:column; column-gap: 3rem;">
-            <a href="#about">
+            <!--             <a href="#about">
                 <h2>About</h2>
-            </a>
+            </a> -->
             <a href="#projects">
                 <h2>Projects</h2>
             </a>
@@ -49,7 +53,7 @@
                 <h2>CV</h2>
             </a>
         </section>
-        <a href="/src/Version1.html">
+        <a href="./src/upgraded.html">
             <button>LVL UP</button>
         </a>
     </header>
@@ -69,12 +73,6 @@
     <section class="arch" id="projects">
         <h1>Projects</h1>
         <div class="projects">
-            <!-- PROTOTYPE OF PROJECT
-            <button class="build">
-                <img class='img_p' src=''
-                alt="Project's image" />
-            </button>
-        -->
             <button class="project" name="venice">
                 <img class='img_p' src='https://i.pinimg.com/originals/6a/ef/ae/6aefae707764e74e08c79f1da320c0fe.png'
                     alt="Project's image" />
@@ -112,15 +110,14 @@
                     alt="Project's image" />
             </button>
         </div>
-<!--         <div
-            style="background-color: #fff; opacity: 60%; width: 95%; justify-self: center; min-height: 18vh; margin-bottom: 1rem; padding: 1vh;">
-            <article class="desc" id="standard-desc">
-                <h2>Projects</h2>
-                <h2 class="description">Project name</h2>
-                <p>Scroll or click on images to discover my projects.</p>
-                <p class="description">Project description</p>
+        <div style="width: 90%; justify-self: center; min-height: 10vh; padding: 1rem; color: #fff;">
+            <article class="desc">
+                <div>
+                    <h2>Projects</h2>
+                    <p>Scroll on images to discover my projects.</p>
+                </div>
             </article>
-        </div> -->
+        </div>
     </section>
     <section class="cv" id="cv">
         <h1>CV</h1>
@@ -129,22 +126,22 @@
             <section>
                 <!-- ARTICLE TEMPLATE
                     <article class="grid">
-                    <button class="jobsBtn">
-                        <h4 text-align='left'></h4>
-                        <h3></h3>
-                        <h4 text-align='right'></h4>
-                    </button>
-                    <text class="textBtn">
-                        <p padding='2rem' text-align='justify'>
-                        </p>
-                    </text>
-                </article>
-            -->
+                        <button class="jobsBtn">
+                            <h4 text-align='left'></h4>
+                            <h3></h3>
+                            <h4 text-align='right'></h4>
+                        </button>
+                        <text class="textBtn">
+                            <p padding='2rem' text-align='justify'>
+                            </p>
+                        </text>
+                    </article>
+                -->
                 <article class="work">
                     <button class="jobsBtn">
                         <h3>Architect, Digital designer</h3>
                         <h4>Freelancer</h4>
-                        <h5 class="period">2022 oct - now</h5>
+                        <h5 class="period"><time>2022 oct</time> - now</h5>
                     </button>
                     <text class="textBtn">
                         <p padding='2rem' text-align='justify'>
@@ -182,14 +179,14 @@
                         <h4>G*AA</h4>
                         <h5 class="period">2022 gen - feb</h5>
                     </button>
-                    <text class="textBtn">
+                    <div class="textBtn">
                         <p padding='2rem' text-align='justify'>
                             My main task was to make te feasibility study for several buildings' renovation. The
                             study
                             included: analysis of surveys made by external studios, cost-analysis of the project,
                             creation of drawings 1:100 scale and layout.
                         </p>
-                    </text>
+                    </div>
                 </article>
                 <article class="work">
                     <button class="jobsBtn">
@@ -197,14 +194,14 @@
                         <h4>Studio Element</h4>
                         <h5 class="period">2021 gen - dec</h5>
                     </button>
-                    <text class="textBtn">
+                    <div class="textBtn">
                         <p padding='2rem' text-align='justify'>
                             I assisted the main architect on: surveys, building design, client-architect meetings,
                             municipality-architect meetings, presentation of projects, management of architectural
                             conventions. The programs used for the tasks were mainly: Office package, Adobe package,
                             AutoCad.
                         </p>
-                    </text>
+                    </div>
                 </article>
                 <article class="work">
                     <button class="jobsBtn">
@@ -212,11 +209,11 @@
                         <h4>GAMAStudio</h4>
                         <h5 class="period">2020 oct - dec</h5>
                     </button>
-                    <text class="textBtn">
+                    <div class="textBtn">
                         <p padding='2rem' text-align='justify'>
                             I worked on building renovations from the survey to the design phase.
                         </p>
-                    </text>
+                    </div>
                 </article>
             </section>
         </section>
@@ -306,7 +303,7 @@
         </article>
         <article>
             <h3>Sources</h3>
-            <p>The open source icons used are available at icons8.com</p>
+            <p>The social icons used are taken from icons8.com</p>
         </article>
     </footer>
 </body>
