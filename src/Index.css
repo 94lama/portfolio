@@ -71,6 +71,7 @@ h4 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12pt;
   max-lines: 1;
+  align-self: center;
 }
 
 h5 {
@@ -228,11 +229,11 @@ header img {
   padding: 0;
   z-index: 2;
   background: linear-gradient(
-    190deg,
-    #005b96 0,
-    #005b96 50%,
+    0deg,
+    #011f4b 0,
     #011f4b 50%,
-    #011f4b 100%
+    #005b96 50%,
+    #005b96 100%
     )
 }
 
