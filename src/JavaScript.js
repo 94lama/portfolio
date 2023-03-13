@@ -1,18 +1,16 @@
-var acc = document.getElementsByClassName("work");
+var acc = document.getElementsByClassName("jobsBtn");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var textBtn = this.nextElementSibling;
-    if (textBtn.style.display === "block") {
-        textBtn.style.display = "none";
-    } else {
-        textBtn.style.display = "block";
-    }
-  });
-}
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+        panel.style.padding = "0";
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        panel.style.padding = "1rem";
+      }
+    });
+  }

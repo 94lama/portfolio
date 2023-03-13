@@ -257,6 +257,7 @@ header img {
     text-align: justify;
     padding: 0 1rem 0 1rem;
     grid-template-columns: 3fr 1fr 1fr;
+    transition: .5s;
 }
 
 .period {
@@ -267,22 +268,18 @@ header img {
     /*jobs & studio cards */
     display: flex;
     flex-direction: column;
-    width: 85%;
-    height: 4rem;
+    width: 85vw;
+    min-height: 4rem;
+    height: fit-content;
     margin: .1rem;
 }
 
 .textBtn {
     background-color: #fff;
-    display: none;
+    max-height: 0;
+    padding: 0;
     overflow: hidden;
-    padding: 1rem;
-    transition: all .5s ease-in-out;
-    height: fit-content;
-}
-
-.work:hover {
-    height: auto;
+    transition: max-height 0.5s ease-in-out;
 }
 
 .footer {
