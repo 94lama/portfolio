@@ -54,18 +54,19 @@ h1 {
 .jobs h1 {
     writing-mode: vertical-rl;
     text-align: right;
+    transform: scale(-1);
+    text-transform: uppercase;
+}
+
+.studies h1 {
+    writing-mode: vertical-rl;
+    text-align: right;
+    transform: scale(-1);
     rotate: 180deg;
     text-transform: uppercase;
 }
 
 .open-meteo h1 {
-    writing-mode: vertical-rl;
-    text-align: right;
-    rotate: 180deg;
-    text-transform: uppercase;
-}
-
-.studies h1 {
     writing-mode: vertical-rl;
     text-align: right;
     rotate: 180deg;
@@ -283,7 +284,7 @@ header img {
     /*jobs & studio cards */
     display: flex;
     flex-direction: column;
-    width: 85vw;
+    width: 75vw;
     min-height: 4rem;
     height: fit-content;
     margin: .1rem;
