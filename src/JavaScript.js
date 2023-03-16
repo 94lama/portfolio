@@ -56,7 +56,7 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=45.07&longitude=7.69&hour
     }
     else {
       document.getElementById("open-meteo").insertAdjacentHTML('beforeend',
-        `<img class='moodimg' style='height:4rem' src='./assets/icons/icons8-disappointed-100.png' alt="cloudy_weather">It's cloudy</img>`)
+        `<img class='moodimg' style='height:4rem' src='./assets/icons/icons8-disappointed-100.png' alt="cloudy_weather"></img>`)
     }
 
     document.getElementById("open-meteo").insertAdjacentHTML('beforeend',
