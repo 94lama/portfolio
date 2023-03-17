@@ -224,10 +224,10 @@ header img {
   min-height: 60rem;
   height: auto;
   margin: 0;
-  padding: 0;
-  background:linear-gradient(5deg,#005b96 0,#005b96 49%,#FFD700 49%,#FFD700 50%, transparent 50%),
-  linear-gradient(-3.5deg,#011f4b 60%, #011f4b 92%, #111 92%, transparent 93%),
-  linear-gradient(-3.5deg,#03396c 90%,#03396c 100%);
+  padding: 15% 0 0 0;
+  background: linear-gradient(5deg, #005b96 0, #005b96 44%, #FFD700 44%, #FFD700 45%, transparent 45%),
+      linear-gradient(-3.5deg, #011f4b 60%, #011f4b 92%, #111 92%, transparent 93%),
+      linear-gradient(-3.5deg, #03396c 90%, #03396c 100%);
 }
 
 
@@ -290,22 +290,20 @@ header img {
 }
 
 .footer {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  align-content:center;
+  align-content: center;
   text-align: center;
-  padding: 5rem 0 5rem 0;
+  padding: 22% 0 2% 0;
   margin: 0;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   color: white;
-  background: linear-gradient(
-    175deg,
-    #005b96 0,
-    #005b96 30%,
-    #011f4b 30%,
-    #011f4b 100%
-    )
+  background: linear-gradient(175deg,
+          #005b96 0,
+          #005b96 18%,
+          #011f4b 18%,
+          #011f4b 100%)
 }
 
 

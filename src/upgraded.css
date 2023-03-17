@@ -31,7 +31,7 @@ a {
     background:transparent;
     scrollbar-color: #000;
   }
-*/
+  */
 
 /*Fonts-------*/
 
@@ -42,8 +42,8 @@ a {
 
 h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
-                'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-                'Open Sans', 'Helvetica Neue', sans-serif;
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 26pt;
     padding: 1rem;
     margin: 0;
@@ -68,8 +68,8 @@ h1 {
 
 .open-meteo h1 {
     writing-mode: vertical-rl;
-    text-align: right;
-    rotate: 180deg;
+    text-align: end;
+    transform: rotate(180deg);
     text-transform: uppercase;
 }
 
@@ -81,12 +81,20 @@ h2 {
 h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
+    white-space: normal;
+    text-justify: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    align-self: center;
+    text-align: left;
 }
 
 h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
     max-lines: 1;
+    white-space: nowrap;
+    overflow: hidden;
     align-self: center;
 }
 
@@ -94,21 +102,25 @@ h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
     max-lines: 1;
+    white-space: nowrap;
+    overflow: hidden;
     align-self: center;
 }
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
-    text-indent: .5rem;
-    text-align: justify;
+    line-height: 1.5;
+    text-justify: distribute;
+    word-wrap: break-word;
 }
-
-
-/*Sections-------*/
 
 .cover p {
     max-width: 22rem;
+}
+
+.footer h3 {
+    text-align: center;
 }
 
 .footer p {
@@ -121,6 +133,9 @@ p {
     line-height: 1.2;
     margin: 0;
 }
+
+/*Sections-------*/
+
 
 header {
     display: flex;
@@ -154,7 +169,7 @@ header img {
 .cover {
     display: flex;
     flex-wrap: wrap;
-    position:fixed;
+    position: fixed;
     width: 100%;
     margin: 0;
     column-gap: 2rem;
@@ -170,7 +185,7 @@ header img {
 }
 
 .profile {
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 15rem;
     max-height: 15rem;
     aspect-ratio: 1;
@@ -198,8 +213,7 @@ header img {
     overflow-y: hidden;
     background-color: #fff;
     width: 100%;
-    min-height: 30rem;
-    height: auto;
+    height: 70vh;
 }
 
 .project {
@@ -227,11 +241,9 @@ header img {
     transition: ease-in-out 0.5s;
 }
 
-.img_p:hover .projectTxt {
-    opacity: 100%;
-    line-height: normal;
-    transition: ease-in-out .5s;
-    transform: scaleY(1);
+.text {
+    height: auto;
+    transform: scaleY(0);
 }
 
 .cv {
@@ -239,8 +251,8 @@ header img {
     min-height: 60rem;
     height: auto;
     margin: 0;
-    padding: 0;
-    background: linear-gradient(5deg, #005b96 0, #005b96 49%, #FFD700 49%, #FFD700 50%, transparent 50%),
+    padding: 15% 0 0 0;
+    background: linear-gradient(5deg, #005b96 0, #005b96 44%, #FFD700 44%, #FFD700 45%, transparent 45%),
         linear-gradient(-3.5deg, #011f4b 60%, #011f4b 92%, #111 92%, transparent 93%),
         linear-gradient(-3.5deg, #03396c 90%, #03396c 100%);
 }
@@ -268,7 +280,7 @@ header img {
     display: grid;
     grid-auto-flow: column;
     width: auto;
-    max-width: 85%;
+    max-width: 75rem;
     height: 4rem;
     text-align: justify;
     padding: 0 1rem 0 1rem;
@@ -299,27 +311,28 @@ header img {
 }
 
 .footer {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-content: center;
     text-align: center;
-    padding: 5rem 0 5rem 0;
+    padding: 22% 0 2% 0;
     margin: 0;
     justify-content: space-evenly;
     color: white;
     background: linear-gradient(175deg,
             #005b96 0,
-            #005b96 30%,
-            #011f4b 30%,
+            #005b96 18%,
+            #011f4b 18%,
             #011f4b 100%)
 }
 
-.open-meteo{
+.open-meteo {
     display: grid;
     grid-template-areas: 'a b ';
     row-gap: 0;
     column-gap: 2rem;
+    margin: 0;
     height: fit-content;
 }
 
@@ -328,16 +341,17 @@ header img {
     justify-self: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 
-    .cover{
+    .cover {
         min-height: 100vh;
         height: auto;
-        position:relative;
+        position: relative;
     }
 
     .arch {
         margin: 0;
+        height: 100vh;
     }
 
     .work {
@@ -351,19 +365,22 @@ header img {
 
     h3 {
         font-size: 12pt;
-        white-space: nowrap;
         width: 50vw;
+        overflow-wrap: break-word;
+        max-lines: 2;
         overflow: hidden;
     }
 
     h4 {
         white-space: nowrap;
         overflow: hidden;
-        width: 10vw;
+        width: 0vw;
     }
 
-    .footer {
-        grid-auto-flow: row;
-        height: auto;
+    h5 {
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0vw;
     }
+
 }
