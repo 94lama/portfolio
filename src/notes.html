@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./upgraded.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin Sketch">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fasthand">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Pen Script">
+</head>
+
+<body style="padding:1rem;
+        background:url('./assets/wallpaperflare-cropped.jpg');
+        background-repeat: repeat-y;
+        background-size: 100%;
+        display: grid;
+        width: 90%;
+        justify-items: center;
+        row-gap: 1rem;">
+    <h2 style="font-family:'Cabin Sketch'; font-size: 30pt; margin: 0;">Notes</h2>
+    <ul id="list" style="width: 90%; height: 50vh; display: felx; flex-wrap: wrap; overflow-y: scroll;">
+    </ul>
+    <div>
+        <input type="text" id="input" placeholder="Add your notes" />
+        <button class="listElement" id="listElement" onclick="addNote()">Add</button>
+    </div>
+    <button onclick="save()">Save</button>
+</body>
+<script language="javascript" type="text/javascript">
+        var go = document.getElementById("input");
+    input.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("listElement").click();
+        }
+    });
+    var listArr = [];
+    function addNote() {
+        var comment = document.getElementById('input').value;
+        if (comment != "") {
+            const node = document.createElement("li");
+            const text = document.createTextNode(comment);
+            node.innerHTML = `<text style="font-family:'Nanum Pen Script'; max-width:90%; overflow-warp:break-word; font-size:16pt">${comment}</text><button class='delete' onclick='deleter(this)' style='margin-left:1rem'>x</button>`;
+            document.getElementById('list').appendChild(node);
+            document.getElementById('input').value = null;
+            listArr.push(comment);
+            console.log(node);
+        };
+    };
+    function deleter(el) {
+        el.parentElement.remove();
+        var a = el.parentElement.firstChild.textContent;
+        const index = listArr.indexOf(a)
+        const x = listArr.splice(index, 1);
+        console.log(index);
+        console.log(a)
+    }
+    function save() {
+        textDoc = document.createElement('a');
+        var separate = `\r\n`;
+        var newListPrint = listArr.map(x => x.concat(separate));
+        textDoc.href = 'data:attachment/text,' + encodeURI(newListPrint);
+        textDoc.target = '_blank';
+        textDoc.download = 'notes.txt';
+        textDoc.click();
+    }
+</script>
+
+</html>

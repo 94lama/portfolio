@@ -62,7 +62,6 @@ h1 {
     writing-mode: vertical-rl;
     text-align: right;
     transform: scale(-1);
-    rotate: 180deg;
     text-transform: uppercase;
 }
 
@@ -134,6 +133,11 @@ p {
     margin: 0;
 }
 
+.note{
+    font-size: 30pt;
+    font-family: 'Cabin Sketch';
+}
+
 /*Sections-------*/
 
 
@@ -196,12 +200,13 @@ header img {
     /*Projects area*/
     width: 100%;
     margin-top: 100vh;
+    padding-top: 3rem;
     height: auto;
     background: linear-gradient(3deg,
             #03396c 0,
-            #03396c 95%,
-            #000 95%,
-            transparent 96%);
+            #03396c 90%,
+            #000 90%,
+            transparent 91%);
     background-color: #011f4b;
 }
 

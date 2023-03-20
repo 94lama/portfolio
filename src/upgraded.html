@@ -14,13 +14,14 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="/src/manifest.json" />
     <link rel="icon" href="/src/assets/Logo.png" />
-    <link rel="stylesheet" href="/src/upgraded.css">
+    <link rel="stylesheet" href="./upgraded.css">
 </head>
 
 <body>
     <header>
         <section>
-            <a href="https://www.linkedin.com/in/riccardo-la-malfa-a65b7515a/" target="_blank"
+            <a href="https://www.linkedin.com/in/riccardo-la-malfa-a65b7515a/"
+                target="_blank"
                 rel="noreferrer noopener">
                 <img class="icon" src="/src/assets/icons/linkedin-circled--v1.png" alt="Linkedin icon" />
             </a>
@@ -53,8 +54,8 @@
                 <h2>CV</h2>
             </a>
         </section>
-<!--         <a href="../index.html"> -->
-        <button onclick="isClicked()"><a href="../index.html">Remove JS</a></button>
+    <a href="../index.html"  onclick="isClicked()" target="popup"><button>Remove JS</button></a>
+    <button onclick="newWin()">Take notes</button>
     </header>
     <main class="cover">
         <img class='profile' alt='profile picture' src='./assets/profile-picture.jpg' />
@@ -318,9 +319,8 @@
         <article>
             <h3>Future improvements</h3>
             <ul id='toDo' style="text-align: left;">
-                <li>Adding description to projects</li>
-                <li>Notepad for the user</li>
-                <li>Totally editing the design</li>
+                <li>Add description to projects</li>
+                <li>Changing the design</li>
                 <li>Adding a third page with React</li>
                 <li>Creating my own icons</li>
             </ul>
