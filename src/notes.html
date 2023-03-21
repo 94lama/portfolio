@@ -53,7 +53,8 @@
     }
     function save() {
         textDoc = document.createElement('a');
-        let newListPrint = listArr.join(`;\r\n`);
+        var separate = `\r\n`;
+        var newListPrint = listArr.map(x => x.concat(separate));
         textDoc.href = 'data:attachment/text,' + encodeURI(newListPrint);
         textDoc.target = '_blank';
         textDoc.download = 'notes.txt';
