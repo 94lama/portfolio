@@ -1,0 +1,18 @@
+.project_ {
+    margin-top: 4rem;
+}
+
+.img {
+    max-width: 100%;
+    aspect-ratio: 1.5;
+    object-fit:cover;
+}
+
+.project_ h2 {
+    margin: 1rem 0 0 5rem;
+    z-index: 2;
+}
+
+.project_ p {
+    text-align: justify;
+}

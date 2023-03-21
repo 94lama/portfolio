@@ -108,12 +108,5 @@ if (typeof document !== 'undefined') {
 
   //Updating whishlist
   {
-    let x = 1;
-    var list;
-    const reader = new FileReader();
-    document.querySelector('future-improvements.txt').innerText = list.result;
-    document.getElementById("toDo").insertAdjacentHTML('beforeend', `<li><p>${x}aaa</p></li>`)
-    console.log(list)
-    console.log(document.getElementById('toDo'))
   }
 }

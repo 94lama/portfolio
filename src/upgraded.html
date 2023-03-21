@@ -12,35 +12,34 @@
         content="Works and studies up to March 2023" property="og-locale" content="en" property="og-image"
         content="https://media.licdn.com/dms/image/C4D03AQE3pgA4FxjPlw/profile-displayphoto-shrink_800_800/0/1659956910703?e=1683763200&v=beta&t=LBD3-KHMRv-33-D1xOtDQyTHam0TVyI1-WPJXiVIUSs" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="/src/manifest.json" />
-    <link rel="icon" href="/src/assets/Logo.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="./assets/Logo.png" />
     <link rel="stylesheet" href="./upgraded.css">
 </head>
 
 <body>
     <header>
         <section>
-            <a href="https://www.linkedin.com/in/riccardo-la-malfa-a65b7515a/"
-                target="_blank"
+            <a href="https://www.linkedin.com/in/riccardo-la-malfa-a65b7515a/" target="_blank"
                 rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/linkedin-circled--v1.png" alt="Linkedin icon" />
+                <img class="icon" src="./assets/icons/linkedin-circled--v1.png" alt="Linkedin icon" />
             </a>
             <a href="https://www.pinterest.it/lama_rch/" target="_blank" rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/pinterest--v1.png" alt="Pinterest icon" />
+                <img class="icon" src="./assets/icons/pinterest--v1.png" alt="Pinterest icon" />
             </a>
             <a href="https://github.com/94lama" target="_blank" rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/github.png" alt="GitHub icon" />
+                <img class="icon" src="./assets/icons/github.png" alt="GitHub icon" />
             </a>
             <a href="https://stackoverflow.com/users/20914708/riccardo-la-malfa" target="_blank"
                 rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/stackoverflow.png" alt="Stack Overflow icon" />
+                <img class="icon" src="./assets/icons/stackoverflow.png" alt="Stack Overflow icon" />
             </a>
             <a href="https://it.fiverr.com/lamar994?up_rollout=true" target="_blank" rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/fiverr.png" alt="Fiverr icon" />
+                <img class="icon" src="./assets/icons/fiverr.png" alt="Fiverr icon" />
             </a>
             <a href="https://www.figma.com/files/recent?fuid=1208783546950227088" target="_blank"
                 rel="noreferrer noopener">
-                <img class="icon" src="/src/assets/icons/icons8-figma.svg" alt="Figma icon" />
+                <img class="icon" src="./assets/icons/icons8-figma.svg" alt="Figma icon" />
             </a>
         </section>
         <section style="display:grid; grid-auto-flow:column; column-gap: 3rem;">
@@ -54,8 +53,9 @@
                 <h2>CV</h2>
             </a>
         </section>
-    <a href="../index.html"  onclick="isClicked()" target="popup"><button>Remove JS</button></a>
-    <button onclick="newWin()">Take notes</button>
+        <a href="../index.html" onclick="isClicked()" target="popup"><button>Remove JS</button></a>
+        <a href="https://riccardo-lamalfa.vercel.app/" target="popup"><button>React!</button></a>
+        <button onclick="newWin()">Take notes</button>
     </header>
     <main class="cover">
         <img class='profile' alt='profile picture' src='./assets/profile-picture.jpg' />
@@ -69,14 +69,15 @@
             </p>
         </section>
         <section style="display: flex; columns: 10% 45% 35%; flex-wrap: wrap;">
-            <h1 style="writing-mode: vertical-rl; transform: scale(-1); text-align: right; text-transform: uppercase">My mood
+            <h1 style="writing-mode: vertical-rl; transform: scale(-1); text-align: right; text-transform: uppercase">My
+                mood
             </h1>
             <div id="open-meteo" class="open-meteo"></div>
         </section>
-        <p style="max-width: 90vw; text-align: justify;">You can 
+        <p style="max-width: 90vw; text-align: justify;">You can
             <a href="mailto:riccardo.lamalfa94@gmail.com">send me a mail</a>
-             or a 
-            <a href="https://t.me/riccardo_lama">message</a>, 
+            or a
+            <a href="https://t.me/riccardo_lama">message</a>,
             but I highly recomend to take the previous image as a mood reference. Thank you!
         </p>
     </main>
@@ -84,40 +85,63 @@
         <h1>Projects</h1>
         <div class="projects">
             <button class="project" name="venice">
-                <img class='img_p' src='https://i.pinimg.com/originals/6a/ef/ae/6aefae707764e74e08c79f1da320c0fe.png'
-                    alt="Project's image" />
+                <a href="./other pages/venice.html"><img class='img_p'
+                        src='https://i.pinimg.com/originals/6a/ef/ae/6aefae707764e74e08c79f1da320c0fe.png'
+                        alt="Project's image" /></a>
             </button>
             <button class="project" name="portaNuova">
-                <img class='img_p' src='https://i.pinimg.com/originals/1a/63/66/1a636677912c757adea7603028d7bac3.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/ex-riposo-ferroviario.html">
+                    <img class='img_p'
+                        src='https://i.pinimg.com/originals/1a/63/66/1a636677912c757adea7603028d7bac3.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="campsEinaudi">
-                <img class='img_p' src='https://i.pinimg.com/originals/33/5a/6a/335a6a0e58846769d566b0d3e24c580f.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/campus-einaudi.html">
+                    <img class='img_p'
+                        src='https://i.pinimg.com/originals/33/5a/6a/335a6a0e58846769d566b0d3e24c580f.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="transport">
-                <img class='img_p' src='https://i.pinimg.com/564x/95/86/2f/95862ff8acacc90ab3e2de1e863f821e.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/public-transport.html">
+                    <img class='img_p' src='https://i.pinimg.com/564x/95/86/2f/95862ff8acacc90ab3e2de1e863f821e.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="riLegno">
-                <img class='img_p' src='https://i.pinimg.com/originals/57/b4/6c/57b46c7d343241de930693b58393ab24.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/iListell.html">
+                    <img class='img_p'
+                        src='https://i.pinimg.com/originals/57/b4/6c/57b46c7d343241de930693b58393ab24.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="piscinaMirabilis">
-                <img class='img_p' src='https://i.pinimg.com/originals/b1/3e/85/b13e85f61806eb734341f7be8264a326.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/piscina-mirabilis.html">
+                    <img class='img_p'
+                        src='https://i.pinimg.com/originals/b1/3e/85/b13e85f61806eb734341f7be8264a326.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="residFacade">
-                <img class='img_p' src='https://i.pinimg.com/originals/9c/e0/27/9ce027ab8d6444fad1c6201d1a7d7875.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/residential-house.html">
+                    <img class='img_p'
+                        src='https://i.pinimg.com/originals/9c/e0/27/9ce027ab8d6444fad1c6201d1a7d7875.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="bikePiedmont">
-                <img class='img_p' src='https://i.pinimg.com/originals/ff/5c/9d/ff5c9dae683b53d404529afec1302080.png'
-                    alt="Project's image" />
+                <a href="./other pages/bike-path.html">
+                    <img class='img_p'
+                        src='https://i.pinimg.com/originals/ff/5c/9d/ff5c9dae683b53d404529afec1302080.png'
+                        alt="Project's image" />
+                </a>
             </button>
             <button class="project" name="reba">
-                <img class='img_p' src='https://lavalleenotizie.it/media/2022/08/nuovo-palace-bron-si-riparte-1.jpg'
-                    alt="Project's image" />
+                <a href="./other pages/reba-hotels.html">
+                    <img class='img_p' src='https://lavalleenotizie.it/media/2022/08/nuovo-palace-bron-si-riparte-1.jpg'
+                        alt="Project's image" />
+                </a>
             </button>
         </div>
         <div style="width: 90%; justify-self: center; min-height: 10vh; padding: 1rem; color: #fff;">
@@ -330,13 +354,20 @@
             <p>Weather data are offered by
                 <a href="https://open-meteo.com">open-meteo.com</a>
             </p>
-            <p><a target="_blank" href="https://icons8.com/icon/38517/stack-overflow">Stack Overflow icon by Icons8</a></p>
-            <p><a target="_blank" href="https://icons8.com/icon/3BXBPdCcpZzF/fiverr">Fiverr</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-            <p><a target="_blank" href="https://icons8.com/icon/60444/linkedin-circled">LinkedIn Circled</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-            <p><a target="_blank" href="https://icons8.com/icon/11101/pinterest">Pinterest</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-            <p><a target="_blank" href="https://icons8.com/icon/12599/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-            <p><a target="_blank" href="https://icons8.com/icon/38517/stack-overflow">Stack Overflow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-            <p><a target="_blank" href="https://icons8.com/icon/amXjtNWVYSKP/figma">Figma</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p><a target="_blank" href="https://icons8.com/icon/38517/stack-overflow">Stack Overflow icon by Icons8</a>
+            </p>
+            <p><a target="_blank" href="https://icons8.com/icon/3BXBPdCcpZzF/fiverr">Fiverr</a> icon by <a
+                    target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p><a target="_blank" href="https://icons8.com/icon/60444/linkedin-circled">LinkedIn Circled</a> icon by <a
+                    target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p><a target="_blank" href="https://icons8.com/icon/11101/pinterest">Pinterest</a> icon by <a
+                    target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p><a target="_blank" href="https://icons8.com/icon/12599/github">GitHub</a> icon by <a target="_blank"
+                    href="https://icons8.com">Icons8</a></p>
+            <p><a target="_blank" href="https://icons8.com/icon/38517/stack-overflow">Stack Overflow</a> icon by <a
+                    target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p><a target="_blank" href="https://icons8.com/icon/amXjtNWVYSKP/figma">Figma</a> icon by <a target="_blank"
+                    href="https://icons8.com">Icons8</a></p>
             <p><a target="_blank" href="https://icons8.com/icon/roOehodmb9c4/smiling-face-with-heart">Smiling Face With
                     Heart</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
             <p><a target="_blank" href="https://icons8.com/icon/63377/disappointed">Disappointed</a> icon by <a
@@ -356,4 +387,5 @@
     </footer>
 </body>
 <script src="JavaScript.js"></script>
+
 </html>
