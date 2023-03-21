@@ -1,40 +1,40 @@
 {
-  "name": "Portfolio of Riccardo La Malfa",
-  "short_name": "My portfolio",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "My professional Portfolio and CV",
-  "icons": [
-    {
-      "src": "https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png",
-      "sizes": "50x50",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://img.icons8.com/ios-filled/50/FFFFFF/pinterest--v1.png",
-      "sizes": "50x50",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://img.icons8.com/ios-filled/50/FFFFFF/github.png",
-      "sizes": "50x50",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://img.icons8.com/ios-filled/50/FFFFFF/stackoverflow.png",
-      "sizes": "50x50",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://img.icons8.com/ios-filled/50/FFFFFF/fiverr.png",
-      "sizes": "50x50",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
-}
+    "name": "Riccardo La Malfa's Portfolio",
+    "short_name": "My portfolio",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "My professional Portfolio and CV.",
+    "icons": [
+      {
+        "src": "https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png",
+        "sizes": "50x50",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://img.icons8.com/ios-filled/50/FFFFFF/pinterest--v1.png",
+        "sizes": "50x50",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://img.icons8.com/ios-filled/50/FFFFFF/github.png",
+        "sizes": "50x50",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://img.icons8.com/ios-filled/50/FFFFFF/stackoverflow.png",
+        "sizes": "50x50",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://img.icons8.com/ios-filled/50/FFFFFF/fiverr.png",
+        "sizes": "50x50",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

@@ -30,7 +30,7 @@
             event.preventDefault();
             document.getElementById("listElement").click();
         }
-});
+    });
     var listArr = [];
     function addNote() {
         var comment = document.getElementById('input').value;
@@ -41,6 +41,7 @@
             document.getElementById('list').appendChild(node);
             document.getElementById('input').value = null;
             listArr.push(comment);
+            console.log(node);
         };
     };
     function deleter(el) {

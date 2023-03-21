@@ -1,4 +1,7 @@
-Adding description to projects
-Change the design
-Adding a third page with React
-Replacing icons with my own ones
+[
+Adding description to projects,
+Notepad for the user,
+Change the design,
+Adding a third page with React,
+Replacing icons with my own ones,
+]
