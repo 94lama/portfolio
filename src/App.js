@@ -11,11 +11,10 @@ function App() {
     <main>
       <Navigator />
       <About />
-      <div style={{ "marginTop": "100vh", 'width': '100%', 'backgroundColor': '#011f4b'}}>
+      <div style={{ "marginTop": "100vh", 'width': '100%', 'backgroundColor': '#011f4b' }}>
         <h1>Experiences</h1>
         <CV />
       </div>
-      {/* <WebPages /> */}
       <Stars />
       <Footer />
     </main>
