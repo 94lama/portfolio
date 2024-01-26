@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="70.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 130 70" width="130.0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="74.5062" id="Filter" width="136.92" x="-3.37429" y="-2.03398">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="70" width="130" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1">
+<path d="M1.87571 67.2222L20.3942 27.716L48.5424 51.6667L75.9805 3.21602L102.123 41.2963L111.258 32.4074L128.295 63.5185" fill="none" filter="url(#Filter)" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M1.79012 67.2222L20.3086 27.716L48.4568 51.6667L75.895 3.21602L102.037 41.2963L111.173 32.4074L128.21 63.5185" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+</g>
+</svg>

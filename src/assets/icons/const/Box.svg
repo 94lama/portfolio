@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="115.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 105 115" width="105.0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="237.363" id="Filter" width="237.363" x="-30.7137" y="-39.3983">
+<feDropShadow dx="7.96783" dy="-0.716744" flood-color="#e3dcb2" flood-opacity="1" in="SourceGraphic" result="Shadow" stdDeviation="15.4726"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="119.133" id="Filter_2" width="106.15" x="-0.776868" y="-0.884386">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="115" width="105" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-0" visibility="hidden">
+<path d="M0 80C0 80 44.7658 74.8151 60 60C75.1558 45.2611 80 0 80 0C80 0 86.2928 45.2611 100 60C115.446 76.6085 160 80 160 80C160 80 111.498 81.896 100 100C89.0739 117.204 80 160 80 160C80 160 74.5696 114.867 60 100C47.4817 87.2258 0 80 0 80Z" fill="#ebdf92" fill-rule="nonzero" filter="url(#Filter)" stroke="none"/>
+</g>
+<g clip-path="url(#ArtboardFrame)" id="Layer-3">
+<g opacity="1">
+<path d="M4.47313 23.5298L4.47313 86.0029" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M99.9864 31.3613L99.9864 93.8343" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M4.47313 86.0029L52.2982 112.999" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M4.47313 23.5298L52.2982 50.5255" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M52.2982 4.36561L100.123 31.3613" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M52.1613 112.921L52.1613 50.0442" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M52.2982 112.999L99.9864 93.1166" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M52.2982 50.5255L99.9864 30.6435" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M4.61007 24.2476L52.2982 4.36561" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+</g>
+<g filter="url(#Filter_2)" opacity="1">
+<path d="M4.47313 23.5298L4.47313 86.0029" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M99.9864 31.3613L99.9864 93.8343" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M4.47313 86.0029L52.2982 112.999" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M4.47313 23.5298L52.2982 50.5255" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M52.2982 4.36561L100.123 31.3613" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M52.1613 112.921L52.1613 50.0442" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M52.2982 112.999L99.9864 93.1166" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M52.2982 50.5255L99.9864 30.6435" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M4.61007 24.2476L52.2982 4.36561" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+</g>
+</g>
+</svg>

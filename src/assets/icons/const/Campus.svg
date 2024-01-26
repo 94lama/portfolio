@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="200.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 400 200" width="400.0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="237.363" id="Filter" width="237.363" x="-30.7137" y="-39.3983">
+<feDropShadow dx="7.96783" dy="-0.716744" flood-color="#e3dcb2" flood-opacity="1" in="SourceGraphic" result="Shadow" stdDeviation="15.4726"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="205.883" id="Filter_2" width="410.006" x="-4.37348" y="-3.06277">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.74419"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="200" width="400" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1" visibility="hidden">
+<g opacity="1">
+<path d="M33.3333 16.6667L33.3333 133.333L366.667 133.333L366.667 16.6667L33.3333 16.6667Z" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M0 183.333L400 183.333L400 200L0 200L0 183.333Z" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M97.8447-5.68434e-14L100 183.333" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M300-5.68434e-14L300.001 183.333" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M150-5.68434e-14L150.714 183.333" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M200-5.68434e-14L203.007 183.333" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M250-5.68434e-14L253.084 183.333" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+</g>
+<path d="M0 80C0 80 44.7658 74.8151 60 60C75.1558 45.2611 80 0 80 0C80 0 86.2928 45.2611 100 60C115.446 76.6085 160 80 160 80C160 80 111.498 81.896 100 100C89.0739 117.204 80 160 80 160C80 160 74.5696 114.867 60 100C47.4817 87.2258 0 80 0 80Z" fill="#ebdf92" fill-rule="nonzero" filter="url(#Filter)" stroke="none"/>
+</g>
+<g clip-path="url(#ArtboardFrame)" id="Layer-2">
+<g opacity="1">
+<path d="M10.6844 140.035" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M0.48262 142.294L264.518 1.79333L295.269 13.9877L400.777 197.964L102.279 183.119L0.48262 142.294Z" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M280.347 8.07063L242.78 111.543L157.949 116.845L55.0336 164.171" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M242.795 111.501L199.83 187.97" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<g filter="url(#Filter_2)" opacity="1">
+<path d="M10.6844 140.035" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M0.48262 142.294L264.518 1.79333L295.269 13.9877L400.777 197.964L102.279 183.119L0.48262 142.294Z" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M280.347 8.07063L242.78 111.543L157.949 116.845L55.0336 164.171" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+<path d="M242.795 111.501L199.83 187.97" fill="none" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="0.991263"/>
+</g>
+</g>
+</g>
+</svg>

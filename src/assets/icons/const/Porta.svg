@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="105.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 145 105" width="145.0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="109.806" id="Filter" width="150.503" x="-2.75175" y="-2.57644">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="105" width="145" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1">
+<path d="M2.50177 3.02561L142.502 3.02068L142.498 102.322L122.498 102.322L122.5 42.7417C122.5 42.7417 122.501 22.8816 102.501 22.8823C82.5011 22.883 82.5004 42.7431 82.5004 42.7431L82.4982 102.324L62.4982 102.324L62.5004 42.7438C62.5004 42.7438 62.5011 22.8837 42.5011 22.8844C22.5011 22.8851 22.5004 42.7452 22.5004 42.7452L22.4982 102.326L2.49825 102.326L2.50177 3.02561Z" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M2.50177 2.67849L142.502 2.67356L142.498 101.974L122.498 101.975L122.5 42.3946C122.5 42.3946 122.501 22.5344 102.501 22.5351C82.5011 22.5358 82.5004 42.396 82.5004 42.396L82.4982 101.976L62.4982 101.977L62.5004 42.3967C62.5004 42.3967 62.5011 22.5365 42.5011 22.5372C22.5011 22.538 22.5004 42.3981 22.5004 42.3981L22.4982 101.979L2.49825 101.979L2.50177 2.67849Z" fill="none" filter="url(#Filter)" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+</g>
+</svg>

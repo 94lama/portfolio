@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="125.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 100 125" width="100.0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="120.364" id="Filter" width="46.1879" x="-5.25" y="-4.30392">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="57.9532" id="Filter_2" width="29.8069" x="20.7845" y="71.3507">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.7796" id="Filter_3" width="76.1312" x="29.7188" y="71.2603">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="1.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="125" width="100" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1">
+<path d="M26.0345 0.946081L35.6879 14.2514L35.1837 55.3589L34.9216 76.724L0 110.81" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M26.0345 0.946081L35.6879 14.2514L35.1837 55.3589L34.9216 76.724L0 110.81" fill="none" filter="url(#Filter)" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M34.9488 76.6007L34.9688 92.6386L45.3414 106.116L26.0345 124.054" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M34.9488 76.6007L34.9688 92.6386L45.3414 106.116L26.0345 124.054" fill="none" filter="url(#Filter_2)" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+<path d="M34.9688 76.5103L59.7033 89.9278L83.3548 97.0632L100.6 119.79" fill="none" opacity="1" stroke="#ffed92" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+<path d="M34.9688 76.5103L59.7033 89.9278L83.3548 97.0632L100.6 119.79" fill="none" filter="url(#Filter_3)" opacity="1" stroke="#fdf0ab" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3"/>
+</g>
+</svg>

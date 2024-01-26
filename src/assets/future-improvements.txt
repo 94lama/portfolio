@@ -1,0 +1,2 @@
+Fixing images sizes and format to webp,
+Replacing icons with my own ones,
