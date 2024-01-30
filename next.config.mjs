@@ -4,7 +4,7 @@ const nextConfig = {
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
     images: {
-        domains : ['localhost:3000']
+        domains : ['https://94lama.github.io/portfolio']
     },
 };
 
