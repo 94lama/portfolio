@@ -4,7 +4,14 @@ const nextConfig = {
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
     images: {
-        domains : ['https://94lama.github.io/portfolio']
+        remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: 'example.com',
+              port: '',
+              pathname: '/account123/**',
+            },
+          ],
     },
 };
 
