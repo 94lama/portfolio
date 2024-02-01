@@ -1,15 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/portfolio/*",
+    basePath: "/portfolio",
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
     images: {
         remotePatterns: [
             {
-              protocol: 'http',
-              hostname: 'http://94lama.github.io/portfolio',
+              protocol: 'https',
+              hostname: 'https://94lama.github.io/portfolio',
               port: '',
-              //pathname: '/portfolio/**',
+              pathname: '/portfolio/**',
             },
           ],
         unoptimized: true
