@@ -1,8 +1,8 @@
 'use client';
 import Image from "next/image";
-import { useEffect, useState } from "react";
-const home = window.location.origin+'/assets/img/home_7.jpg';
-const rain = window.location.origin+"/assets/img/rain.png";
+import { useState } from "react";
+const home = typeof window !== 'undefined'? window.location.href+'/assets/img/home_7.jpg':'https://94lama.github.io/portfolio/assets/img/home_7.jpg';
+const rain = typeof window !== 'undefined'? window.location.href+"/assets/img/rain.png": "https://94lama.github.io/portfolio/assets/img/rain.png";
 const location = {latitude:45.07, longitude:7.69};
 
 export default function Weather() {
