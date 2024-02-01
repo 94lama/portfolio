@@ -10,7 +10,6 @@ const nextConfig = {
               hostname: '94lama.github.io',
               port: '',
               pathname: '/portfolio/**',
-              pathname: '/portfolio/**',
             },
           ],
         unoptimized: true
