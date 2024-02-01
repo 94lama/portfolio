@@ -7,8 +7,9 @@ const nextConfig = {
         remotePatterns: [
             {
               protocol: 'https',
-              hostname: 'https://94lama.github.io/portfolio',
+              hostname: '94lama.github.io',
               port: '',
+              pathname: '/portfolio/**',
               pathname: '/portfolio/**',
             },
           ],

@@ -2,7 +2,8 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 const home = '/assets/img/home_7.jpg';
-const rain = "/assets/img/rain.png"
+const rain = "/assets/img/rain.png";
+const location = {latitude:45.07, longitude:7.69};
 
 export default function Weather() {
     const d = new Date();
@@ -10,7 +11,7 @@ export default function Weather() {
     let [image, setImage] = useState(home);
 
     function updateWithAPI() {
-        fetch("https://api.open-meteo.com/v1/forecast?latitude=45.07&longitude=7.69&hourly=temperature_2m,rain,weathercode,cloudcover&daily=sunrise,sunset&current_weather=true&timezone=Europe%2FBerlin", { cache: 'no-store' })
+        fetch(`https://api.open-meteo.com/v1/forecast?latitude=${location.latitude}&longitude=${location.longitude}&hourly=temperature_2m,rain,weathercode,cloudcover&daily=sunrise,sunset&current_weather=true&timezone=Europe%2FBerlin`, { cache: 'no-store' })
             .then(res => res.json())
             .then(data => {
                 switch (true) {
