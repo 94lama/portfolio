@@ -1,6 +1,8 @@
 'use client';
 import Image from "next/image";
 import { useState } from "react";
+
+// window gives error on build
 const home = typeof window !== 'undefined'? window.location.href+'/assets/img/home_7.jpg':'https://94lama.github.io/portfolio/assets/img/home_7.jpg';
 const rain = typeof window !== 'undefined'? window.location.href+"/assets/img/rain.png": "https://94lama.github.io/portfolio/assets/img/rain.png";
 const location = {latitude:45.07, longitude:7.69};
@@ -43,7 +45,7 @@ export default function Weather() {
             id="weather"
             src={image}
             fill={true}
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'cover', zIndex: -1, position: 'absolute' }}
             alt="weather"
             onLoad={() => { updateWithAPI() }}
             priority={true}

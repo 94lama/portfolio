@@ -1,10 +1,50 @@
 import Weather from "@/../components/weather";
+import Card from "components/card";
+
+const experiences = [
+  { title: "Architect", company: "Orbyta Engineering", description: "Provided support in designing the restoration of Teatro Greco di Eraclea Minoa and its surrounding archaeological area (Selected project in a Design Competition)", date: "2023" },
+  { title: "Architect", company: "Lorena Alessio Architetti", description: "Collaborated on architectural design for a luxury RTA in Courmayeur, in partnership with KKAA Studio", date: "2022" },
+  { title: "Architect", company: "G*AA", description: "Architectural design for renovation and energy-efficiency interventions on residential buildings", date: "2022" },
+  { title: "Architect", company: "Studio Element", description: "Architectural design for energy-efficiency and/or restoration interventions for residential buildings", date: "2021" },
+  { title: "Architect", company: "GAMAStudio", description: "Architectural design for energy-efficiency and/or restoration interventions for residential buildings", date: "2020" },
+  { title: "Assistant Architect (internship)", company: "Studio Element", description: "Architectural design for energy-efficiency and/or restoration interventions for residential buildings", date: "2018" },
+];
+
+const studies = [
+  { title: "Architect", company: "Orbyta Engineering", description: "Provided support in designing the restoration of Teatro Greco di Eraclea Minoa and its surrounding archaeological area (Selected project in a Design Competition)", date: "2023" },
+
+];
+
+const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-lg p-10 m-10";
+const classCards = "flex flex-row flex-wrap justify-start justify-items-center m-auto";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between relative" id="homePage">
+    <main id="homePage">
       <Weather />
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+
+      {/* Experiences */}
+      <div className={classGroups+" mt-20 pt-20"}>
+        <h2>Experiences</h2> 
+        <div className={classCards}>
+          {
+            experiences.map((experience) => (
+              <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} />
+            ))
+          }
+        </div>
+      </div>
+
+      {/* Studies */}
+      <div className={classGroups}>
+        <h2>Studies</h2> 
+        <div className={classCards}>
+          {
+            experiences.map((experience) => (
+              <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} />
+            ))
+          }
+        </div>
       </div>
     </main>
   );
