@@ -4,11 +4,12 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faPinterest, faGithub, faStackOverflow, faFigma } from '@fortawesome/free-brands-svg-icons';
 
-const iconStyle = "icon p-1 rounded-md bg-transparent transform hover:scale-125 hover:bg-white hover:text-slate-800/50"
+const iconStyle = "icon p-1 rounded-md bg-transparent h-10 transform hover:scale-110 hover:bg-white hover:text-slate-800/50 duration-600";
 
 function Navbar() {
     return (
-        <nav className="fixed z-50 top-0 w-full h-16 flex content-around justify-evenly bg-slate-800/50 backdrop-blur shadow-md ">
+        /* Adjust height of navbar and icons */
+        <nav className="fixed z-50 top-0 w-full h-12 flex content-around justify-evenly bg-slate-800/50 backdrop-blur shadow-md ">
             <div className="icons content-around my-auto">
                 <a href="https://www.linkedin.com/in/riccardo-la-malfa/" target="_blank" rel="noreferrer noopener">
                     <FontAwesomeIcon icon={faLinkedin} className={iconStyle} />
@@ -26,8 +27,10 @@ function Navbar() {
                     <FontAwesomeIcon icon={faFigma} className={iconStyle} />
                 </a>
             </div>
-            <a href="#cv">Projects</a>
-            <a href="#footer">Contacts</a>
+            <div className="flex col-gap-10">
+                <a href="#experiences">Experiences</a>
+                <a href="#studies">Studies</a>
+            </div>
         </nav>
     );
 };

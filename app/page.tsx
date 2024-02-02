@@ -20,7 +20,7 @@ const studies = [
   { title: "Bachelor Degree", institution: "Politecnico di Torino", description: "Archietcture Science", date: "2016" },
 ];
 
-const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-3xl p-5 m-10 md:w-4/6 w-[calc(100vw-5rem)]";
+const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-3xl p-5 mx-10 md:w-4/6 w-[calc(100vw-5rem)]";
 const classCards = "flex flex-wrap justify-center w-[calc(100vw-10rem)] min-w-[21rem] md:w-fit"; //each card occupies 20rem + 0.5 margin each side
 
 /* ///[Component] */
@@ -30,34 +30,38 @@ export default function Home() {
       <Weather />
 
       {/* ///[About me] */}
-      <div className="h-screen w-full pt-20 relative">
-        <div className={classGroups+" w-[calc(100vw-8rem)] md:w-1/3 absolute md:top-40 md:left-80"}>
+      <div className="h-screen  pt-12 relative">
+        <div className={classGroups + " sm:w-[calc(100vw-8rem)] w-2/6 absolute top-40 left-40"}>
           <h1>About me</h1>
           <h3 className="!font-normal !important">I am a Full-stack Developer with expertise in Front-end and Back-end programming, acquired through intensive coding bootcamp training and rigorous online coursework. Proficient in Graphic Design, Agile methodologies (particularly SCRUM), collaborative teamwork, and adept problem-solving skills.</h3>
         </div>
       </div>
 
       {/* ///[Experiences] */}
-      <div className={classGroups}>
-        <h2>Experiences</h2>
-        <div className={classCards}>
-          {
-            experiences.map((experience, i) => (
-              <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} key={i} />
-            ))
-          }
+      <div id="experiences" className="pt-20">
+        <div className={classGroups}>
+          <h2>Experiences</h2>
+          <div className={classCards}>
+            {
+              experiences.map((experience, i) => (
+                <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} key={i} />
+              ))
+            }
+          </div>
         </div>
       </div>
 
       {/* ///[Studies] */}
-      <div className={classGroups}>
-        <h2>Studies</h2>
-        <div className={classCards}>
-          {
-            studies.map((studies, i) => (
-              <Card title={studies.title} description={studies.description} date={studies.date} detail={studies.institution} key={i} />
-            ))
-          }
+      <div id="studies" className="py-20">
+        <div className={classGroups}>
+          <h2>Studies</h2>
+          <div className={classCards}>
+            {
+              studies.map((studies, i) => (
+                <Card title={studies.title} description={studies.description} date={studies.date} detail={studies.institution} key={i} />
+              ))
+            }
+          </div>
         </div>
       </div>
     </main>

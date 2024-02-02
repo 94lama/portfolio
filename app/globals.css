@@ -35,17 +35,17 @@ body {
 
 /* ///[Typography] */
 h1 {
-  @apply !text-5xl text-sky-900 hover:translate-x-48 font-bold p-3 w-3/6 text-nowrap !important;
+  @apply !text-4xl text-sky-900 hover:translate-x-48 font-bold p-3 w-3/6 text-nowrap !important;
   transition-duration: 0.5s;
 }
 
 h2 {
-  @apply !text-4xl text-sky-900 hover:translate-x-32 font-bold p-3 w-3/6 !important;
+  @apply !text-3xl text-sky-900 hover:translate-x-32 font-bold p-3 w-3/6 !important;
   transition-duration: 0.5s;
 }
 
 h3 {
-  @apply font-bold !text-2xl text-black p-3 text-justify !important;
+  @apply font-bold !text-xl text-black p-3 text-justify !important;
 }
 
 p {
