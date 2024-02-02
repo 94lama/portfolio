@@ -4,11 +4,11 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faPinterest, faGithub, faStackOverflow, faFigma } from '@fortawesome/free-brands-svg-icons';
 
-const iconStyle = "icon p-1 rounded-md bg-transparent shadow transform hover:scale-125 hover:text-purple-500"
+const iconStyle = "icon p-1 rounded-md bg-transparent transform hover:scale-125 hover:bg-white hover:text-slate-800/50"
 
 function Navbar() {
     return (
-        <nav className="bg-black fixed w-full h-16 flex content-around justify-evenly z-50 top-0">
+        <nav className="fixed z-50 top-0 w-full h-16 flex content-around justify-evenly bg-slate-800/50 backdrop-blur shadow-md ">
             <div className="icons content-around my-auto">
                 <a href="https://www.linkedin.com/in/riccardo-la-malfa/" target="_blank" rel="noreferrer noopener">
                     <FontAwesomeIcon icon={faLinkedin} className={iconStyle} />

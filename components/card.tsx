@@ -1,4 +1,3 @@
-import './card.sass'
 export default function Card(props: { key: number, title: string, description: string, date: string, detail: string }) {
     const title = props.title?props.title:"N/A";
     const description = props.description?props.description:"N/A";
@@ -6,15 +5,15 @@ export default function Card(props: { key: number, title: string, description: s
     const detail = props.detail?props.detail:"N/A";
 
     return (
-        <div className="card bg-white p-2 m-2 mx-auto radius rounded-xl">
-            <div className='flex justify-between'>
+        <div className="bg-white p-2 m-2 radius rounded-xl max-sm:w-4/5 w-80 shadow-md">
+            <div className='flex flex-col-reverse md:flex-row justify-between'>
                 <h3>{title}</h3>
                 <p>{date}</p>
             </div>
             <hr />
-            <div className='flex flex-col content-between'>
+            <div className='flex flex-col align-items-between'>
                 <p>{description}</p>
-                <p className='text-right'>{detail}</p>
+                <p className='text-right font-bold'>{detail}</p>
             </div>
         </div>
     )
