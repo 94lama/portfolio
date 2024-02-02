@@ -1,10 +1,9 @@
-'use client'
 import './card.sass'
-export default function Card(props: { title: string, description: string, date: string, detail: string }) {
-    const title = props.title?props.title:"";
-    const description = props.description?props.description:"";
-    const date = props.date?props.date:"";
-    const detail = props.detail?props.detail:"";
+export default function Card(props: { key: number, title: string, description: string, date: string, detail: string }) {
+    const title = props.title?props.title:"N/A";
+    const description = props.description?props.description:"N/A";
+    const date = props.date?props.date:"N/A";
+    const detail = props.detail?props.detail:"N/A";
 
     return (
         <div className="card bg-white p-2 m-2 radius rounded-md">

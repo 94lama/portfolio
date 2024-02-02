@@ -1,5 +1,5 @@
 import Weather from "@/../components/weather";
-import Card from "components/card";
+import Card from "@/../components/card";
 
 const experiences = [
   { title: "Architect", company: "Orbyta Engineering", description: "Provided support in designing the restoration of Teatro Greco di Eraclea Minoa and its surrounding archaeological area (Selected project in a Design Competition)", date: "2023" },
@@ -11,8 +11,11 @@ const experiences = [
 ];
 
 const studies = [
-  { title: "Architect", company: "Orbyta Engineering", description: "Provided support in designing the restoration of Teatro Greco di Eraclea Minoa and its surrounding archaeological area (Selected project in a Design Competition)", date: "2023" },
-
+  { title: "Cybersecurity - DevSecOps Expert", institution: "Aulab srl", description: "Specializing course in Cybersecurity", date: "2024" },
+  { title: "Full Stack developer junior", institution: "Aulab srl", description: "Bootcamp in Full Stack Developing", date: "2023" },
+  { title: "2nd Level Post-grad master", institution: "Politecnico di Torino", description: "Metodi e tecniche per il governo dei territori resilienti", date: "2022" },
+  { title: "Master degree", institution: "Politecnico di Torino", description: "Archietcture for the Sustabnable design", date: "2019" },
+  { title: "Bachelor Degree", institution: "Politecnico di Torino", description: "Archietcture Science", date: "2016" },
 ];
 
 const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-lg p-10 m-10";
@@ -28,8 +31,8 @@ export default function Home() {
         <h2>Experiences</h2> 
         <div className={classCards}>
           {
-            experiences.map((experience) => (
-              <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} />
+            experiences.map((experience, i) => (
+              <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} key={i} />
             ))
           }
         </div>
@@ -40,8 +43,8 @@ export default function Home() {
         <h2>Studies</h2> 
         <div className={classCards}>
           {
-            experiences.map((experience) => (
-              <Card title={experience.title} description={experience.description} date={experience.date} detail={experience.company} />
+            studies.map((studies, i) => (
+              <Card title={studies.title} description={studies.description} date={studies.date} detail={studies.institution} key={i} />
             ))
           }
         </div>
