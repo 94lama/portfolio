@@ -1,6 +1,8 @@
 import Weather from "@/../components/weather";
 import Card from "@/../components/card";
 
+/* ///[Variables] */
+
 const experiences = [
   { title: "Architect", company: "Orbyta Engineering", description: "Provided support in designing the restoration of Teatro Greco di Eraclea Minoa and its surrounding archaeological area (Selected project in a Design Competition)", date: "2023" },
   { title: "Architect", company: "Lorena Alessio Architetti", description: "Collaborated on architectural design for a luxury RTA in Courmayeur, in partnership with KKAA Studio", date: "2022" },
@@ -18,16 +20,24 @@ const studies = [
   { title: "Bachelor Degree", institution: "Politecnico di Torino", description: "Archietcture Science", date: "2016" },
 ];
 
-const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-lg p-10 m-10";
+const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-3xl p-10 m-10";
 const classCards = "flex flex-row flex-wrap justify-start justify-items-center m-auto";
 
+/* ///[Component] */
 export default function Home() {
   return (
     <main id="homePage">
       <Weather />
 
-      {/* Experiences */}
-      <div className={classGroups+" mt-20 pt-20"}>
+      <div className="h-screen"></div>
+
+      {/* ///[About me] */}
+      <div className={classGroups}>
+        <h1>About me</h1>
+      </div>
+
+      {/* ///[Experiences] */}
+      <div className={classGroups}>
         <h2>Experiences</h2> 
         <div className={classCards}>
           {
@@ -38,7 +48,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Studies */}
+      {/* ///[Studies] */}
       <div className={classGroups}>
         <h2>Studies</h2> 
         <div className={classCards}>

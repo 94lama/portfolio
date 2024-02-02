@@ -34,9 +34,13 @@ body {
 
 
 /* ///[Typography] */
+h1 {
+  @apply !text-5xl text-black hover:translate-x-48 font-bold p-3 w-3/6 !important;
+  transition-duration: 0.5s;
+}
 
 h2 {
-  @apply !text-4xl text-black hover:translate-x-32 font-bold p-3 w-60 !important;
+  @apply !text-4xl text-black hover:translate-x-32 font-bold p-3 w-3/6 !important;
   transition-duration: 0.5s;
 }
 

@@ -6,7 +6,7 @@ export default function Card(props: { key: number, title: string, description: s
     const detail = props.detail?props.detail:"N/A";
 
     return (
-        <div className="card bg-white p-2 m-2 radius rounded-md">
+        <div className="card bg-white p-2 m-2 mx-auto radius rounded-xl">
             <div className='flex justify-between'>
                 <h3>{title}</h3>
                 <p>{date}</p>
