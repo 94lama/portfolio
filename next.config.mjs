@@ -8,7 +8,6 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: '94lama.github.io',
-        port: '',
         pathname: '/portfolio/**',
       },
     ],
