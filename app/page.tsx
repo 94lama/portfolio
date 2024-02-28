@@ -39,7 +39,7 @@ export default function Home() {
 
       {/* ///[About me] */}
       <div className="min-h-screen pt-12 relative">
-        <div className={classGroups + " lg:w-2/6 top-5 md:top-40 lg:left-40 max-w-[600px]"}>
+        <div className={classGroups + " lg:w-2/6 top-5 md:top-30 lg:left-40 max-w-[600px]"}>
           <h1>About me</h1>
           <h3 className="!font-normal !leading-2 !important">
             I am a Full-stack Developer with expertise in Front-end and Back-end programming, acquired through intensive coding bootcamp training, online coursework and constant practice.<br/><br/>My past experiences allowed me to build also a good knowledge on graphic design, Agile methodologies (SCRUM), collaborative teamwork,  and problem-solving skills.
