@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Online website
 
-This project has been deployed with GitHub Pages and it is available online [here](94lama.github.io/portfolio/)
+This project has been deployed with GitHub Pages and it is available online [here](https://94lama.github.io/portfolio/)
 
 
 
