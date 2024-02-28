@@ -27,7 +27,7 @@ function Navbar() {
                     <FontAwesomeIcon icon={faFigma} className={iconStyle} />
                 </a>
             </div>
-            <div className="flex col-gap-10">
+            <div className="col-gap-10 hidden md:flex">
                 <a href="#experiences">Experiences</a>
                 <a href="#studies">Studies</a>
             </div>

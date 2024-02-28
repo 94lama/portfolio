@@ -5,7 +5,7 @@ export default function Card(props: { key: number, title: string, description: s
     const detail = props.detail?props.detail:"N/A";
 
     return (
-        <div className="bg-white p-2 m-2 radius rounded-xl max-sm:w-4/5 w-80 shadow-md">
+        <div className="bg-white p-2 m-2 radius rounded-xl min-w-[250px] md:w-80 shadow-md">
             <div className='flex flex-col-reverse md:flex-row justify-between'>
                 <h3>{title}</h3>
                 <p>{date}</p>
