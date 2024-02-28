@@ -21,11 +21,11 @@ export default function Weather() {
                         setImage(rain);
                         break;
                     /* case data.hourly.cloudcover[hour]>70:
-                    image.setAttribute('src', coat);
-                    break;
-                case data.hourly.cloudcover[hour]>30:
-                    image.setAttribute('src', shirt);
-                    break; */
+                        setImage(coat);
+                        break;
+                    case data.hourly.cloudcover[hour]>30:
+                        setImage(shirt);
+                        break; */
                     default:
                         setImage(home);
                 }
@@ -41,7 +41,7 @@ export default function Weather() {
     else { 
     }; */
     return (
-        <div style={{position: 'fixed', top: 0, left: 0, width: '100%', height: '100%'}}>
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%' }}>
             <Image
                 id="weather"
                 src={image}
