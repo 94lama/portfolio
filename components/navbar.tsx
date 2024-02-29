@@ -9,8 +9,8 @@ const iconStyle = "icon p-1 rounded-md bg-transparent h-10 transform hover:scale
 function Navbar() {
     return (
         /* Adjust height of navbar and icons */
-        <nav className="fixed z-50 top-0 w-full h-12 flex content-around justify-evenly bg-slate-800/50 backdrop-blur shadow-md ">
-            <div className="icons content-around my-auto">
+        <nav className="fixed z-50 top-0 left-0 w-full h-12 flex justify-center md:justify-between bg-slate-800/50 backdrop-blur md:px-[12.5vw]">
+            <div className="icons content-around">
                 <a href="https://www.linkedin.com/in/riccardo-la-malfa/" target="_blank" rel="noreferrer noopener">
                     <FontAwesomeIcon icon={faLinkedin} className={iconStyle} />
                 </a>

@@ -1,6 +1,6 @@
 import Card from "./card";
 
-const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-3xl p-5 mx-10 md:w-4/6 w-90 backdrop-blur";
+const classGroups = "flex flex-col justify-center relative bg-purple-100 bg-opacity-75 rounded-3xl p-5 md:w-4/6 w-90 backdrop-blur";
 const classCards = "flex md:flex-wrap align-center max-sm:overflow-x-scroll md:justify-center md:w-fit"; //each card occupies 20rem + 0.5 margin each side
 
 export default function CardContainer(props: {title: string, items: any[]}) {
